@@ -139,3 +139,17 @@ footer{
     align-items: center;
 }
 
+@media (max-width:760px){
+    .header .container{
+        display: block;
+    }
+    .two .p {
+        flex-direction: column;
+    
+    }
+    .p p{
+        margin:20px ;
+    }
+}
+
+
